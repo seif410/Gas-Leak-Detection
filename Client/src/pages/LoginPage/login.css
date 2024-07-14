@@ -1,0 +1,100 @@
+.register,
+.Login {
+    text-align: center;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    background: url('../../assets/images/login.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    
+    
+}
+
+
+.reg {
+    margin-bottom: 50px;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+
+}
+
+.auth-form-container,
+.login-form,
+.register-form {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+
+
+}
+
+@media screen and (min-width: 600px) {
+    .auth-form-container {
+        padding: 5rem;
+        /* border: 1px solid white; */
+        border-radius: 10px;
+        margin: 2rem;
+    }
+}
+
+
+label {
+    text-align: left;
+    padding: 0.25rem 0;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+input {
+    margin: 1.5rem 0;
+    padding: 0.5rem;
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+
+    border-radius: 10px;
+}
+
+.sub {
+    border: none;
+    background-color: rgb(237, 243, 238);
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 1.5rem 0;
+    color: #0c3622;
+}
+
+
+
+.link-btn {
+    background: none;
+    color: rgb(14, 39, 19);
+    border: none;
+    text-decoration: underline;
+}
+
+.gender-radio {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.gender-radio div {
+    display: flex;
+    align-items: center;
+
+}
+
+.gender-radio input[type="radio"] {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    /* Adjust the margin between radio buttons as needed */
+}
